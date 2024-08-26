@@ -1,35 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-:root{
-    --color-one:#1E201E;
-    --color-two:#3C3D37;
-    --color-three:#697565;
-    --color-four:#ECDFCC;
-    --fuente-Inter:'Inter', sans serif;
-    
-}
-
-* {
-    padding: 0;
-    margin:0;
-}
-
-body{
-    background: linear-gradient(#1E201E 0%, #3C3D37 66%);
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
-    font-family: var(--fuente-Inter);
-    color: var(--color-four);
-}
-
-.footer{
-    background-color: var(--color-four);
-    padding: 1.5rem;
-    color: var(--color-two);
-    text-align: center;
-
-
+*{
+    font-family: 'Inter', sans serif;
 }
