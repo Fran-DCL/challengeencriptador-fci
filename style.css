@@ -26,8 +26,9 @@
   position:absolute;
     width: 42%;
     height: 60%;
-    left: 10%;
+    left: 10%;    
     top: 13%;
+
 }
 
 .texto{
@@ -155,6 +156,29 @@
     left: 6%
 }
 
+.boton-copiar{
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    gap: 8px;
+    width: 25%;
+    background-color:var(--color-three);
+    border: 1px solid var(--color-one);
+    border-radius: 15px;
+
+    font-family: var(--fuente-texto);
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    color: var(--color-four);
+}
+
+.boton-copiar:hover{
+  margin: 0.3%;
+  width: 24.5%;
+  padding: 1.8%;
+}
+
 .mensaje-encriptado{
     display: flex;
     flex-direction: column;
@@ -174,7 +198,7 @@
     width: 60%;
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 1.5 rem;
     line-height: 120%;
     text-align: center;
     color: var(--color-two)
@@ -262,6 +286,19 @@
       height: 15%;
       left: 10%;
       top: 80%;
+
+      font-size: 80%;
+    }
+
+    .boton-copiar {
+      width: 48%;
+      border-radius: 16px;
+    }
+
+     .boton-copiar:hover {
+      margin: 0.3%;
+      width: 47.5%;
+      padding: 1.8%;
     }
 
     .mensaje-encriptado {

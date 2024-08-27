@@ -5,7 +5,7 @@ function encriptar() {
     let tituloMensaje = document.getElementById("titulo-mensaje");
     let parrafo = document.getElementById("parrafo");
     let imagen1 = document.getElementById("imagen1");
-
+    
     let textoCifrado = texto
     .replace(/e/gi, "enter")
     .replace(/i/gi, "imes")
@@ -55,4 +55,16 @@ function encriptar() {
     }
  }
 
+ // Copia el texto al portapapeles
+    document.getElementById('btnCopiar').addEventListener('click', function() {
+  
+    let textoResultado = document.getElementById('texto');
+    textoResultado.select();
+    textoResultado.setSelectionRange(0, 99999); 
+    
+    // Copia el texto al portapapeles
+    document.execCommand('copy');
+    
+    alert('Texto copiado al portapapeles');
+});
 
