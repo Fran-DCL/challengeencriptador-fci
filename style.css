@@ -22,6 +22,14 @@
     background: var(--color-four);
 }
 
+.alura-icon{
+  position:absolute;
+    width: 42%;
+    height: 60%;
+    left: 10%;
+    top: 13%;
+}
+
 .texto{
     position:absolute;
     width: 42%;
@@ -32,7 +40,7 @@
     font-family: var(--fuente-texto);
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 2rem;
     line-height: 150%;
     background-color: var(--color-four);
 }
@@ -47,7 +55,7 @@
     outline: none;
 }
 
-.terminos{
+.alerta{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -59,7 +67,7 @@
     top: 80%
 }
 
-.terminos p{
+.alerta p{
   font-family: var(--fuente-texto);  
   font-style: normal;
   font-weight: 400;
@@ -203,6 +211,11 @@
       display: flex;
       flex-direction: row;
     }
+    .alura-icon {
+      top: 0;
+      display: none;
+      visibility: hidden;
+    }
 
     .encriptar {
       width: 100%;
@@ -215,13 +228,13 @@
       top: 5%;
     }
 
-    .terminos {
+    .alerta {
       width: 80%;
       left: 10%;
       top: 67%;
     }
 
-    .terminos p {
+    .alerta p {
       font-size: 16px;
     }
 
